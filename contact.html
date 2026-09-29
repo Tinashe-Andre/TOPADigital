@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact — TOPA Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><span class="mark"></span>TOPA <span class="d">Digital</span></div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<section class="page-header">
+  <div class="wrap">
+    <div class="eyebrow">Get in touch</div>
+    <h1 style="font-size:clamp(2.2rem,5vw,3.2rem);">Tell us what <span class="grad">you're building.</span></h1>
+  </div>
+</section>
+
+<section style="border-top:none;">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <p>Whether it's a new brand, a website, or ongoing IT support — send a note and we'll get back to you within a couple of days.</p>
+      <div class="label">Email</div>
+      <div class="value"><a href="mailto:hello@topa.digital">hello@topa.digital</a></div>
+      <div class="label">Based in</div>
+      <div class="value">Johannesburg, South Africa</div>
+    </div>
+
+    <form id="contact-form">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div>
+        <label for="message">What are you working on?</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button class="btn-solid" type="submit">Send message</button>
+      <p class="form-note form-status"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="logo"><span class="mark"></span>TOPA <span class="d">Digital</span></div>
+    <div class="foot-links">
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="wrap copy">© <span class="year"></span> TOPA Digital. Strategy / Creative / Technology.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
